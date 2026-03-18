@@ -1,0 +1,31 @@
+# Core AI and NLP
+requests>=2.31.0
+duckduckgo-search>=6.1.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+
+# Speech-to-Text (optional, for STT feature)
+SpeechRecognition>=3.10.0
+
+# Database
+# sqlite3 is included in Python standard library
+
+# GUI - tkinter is included in Python standard library
+# Additional GUI enhancements
+Pillow>=10.0.0
+
+# Windows-specific utilities (Windows only)
+pywin32>=306; sys_platform == "win32"
+
+# HTTP client with retry support
+urllib3>=2.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Clipboard support (cross-platform fallback)
+pyperclip>=1.8.2
+
+# Date/time utilities
+python-dateutil>=2.8.2
